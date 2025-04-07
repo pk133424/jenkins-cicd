@@ -18,7 +18,7 @@ func main() {
 	}
 
 	router.GET("health", func(ctx *gin.Context) {
-		ctx.JSON(200, gin.H{"status": "okk"})
+		ctx.JSON(200, gin.H{"status": "okk1"})
 	})
 
 	log.Printf("Server running on port %s\n", "9001")
